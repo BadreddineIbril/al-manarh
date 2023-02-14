@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Bebas+Neue&family=El+Messiri&family=Poppins:wght@500&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'El Messiri';
+}
+
+/* COLORS  */
+:root{
+    --primaryColor : #5636bd;
+    --secondaryColor : rgba(255, 255, 255, 0.1);
+    --thirdColor : #e7b9f9;
+    --textColor : rgb(247, 243, 255);
+}
+
+/* INPUTS */
+input{
+    font-family: 'El Messiri';
+    border: none;
+    outline: none;
+}
+button{
+    font-family: 'El Messiri';
+    border: none;
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+a{
+    text-decoration: none;
+    color: var(--textColor);
+}
+
+body{
+    background-color: var(--textColor);
+    color: var(--primaryColor);
+    direction: rtl;
+}
+
+
+/* ================= LOGIN PAGE ================= */
+.login{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.login .info{
+    background-color: var(--primaryColor);
+    color: var(--textColor);
+}
+.login .context{
+    background-color: var(--textColor);
+    color: var(--primaryColor);
+}

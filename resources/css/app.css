@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Bebas+Neue&family=Poppins:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+/* COLORS  */
+:root{
+    --primaryColor : #f4f1f8;
+    --secondaryColor : #6f5af2;
+    --thirdColor : #e7b9f9;
+    --textColor : #1d1d1f;
+}
+
+/* INPUTS */
+input{
+    font-family: 'Poppins';
+}
+button{
+    font-family: 'Poppins';
+    border: none;
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+}
+
+body{
+    background-color: var(--primaryColor);
+    color: var(--textColor);
+}
+
